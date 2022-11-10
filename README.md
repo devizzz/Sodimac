@@ -46,3 +46,17 @@ POST
    "weight": number
 }
 ```
+```JSON
+PUT
+{
+   "id": string,
+   "sku": string,
+   "name": string,
+   "stock": number,
+   "weight": number
+}
+```
+```
+DELETE
+http://localhost:7071/api/sodimacapi?id=<id>&partitionKey=<sku>
+```
