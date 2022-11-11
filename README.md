@@ -58,5 +58,5 @@ PUT
 ```
 ```
 DELETE
-http://localhost:7071/api/sodimacapi?id=<id>&partitionKey=<sku>
+https://sodimactest.azurewebsites.net/api/sodimacapi?id=<id>&partitionKey=<sku>
 ```
